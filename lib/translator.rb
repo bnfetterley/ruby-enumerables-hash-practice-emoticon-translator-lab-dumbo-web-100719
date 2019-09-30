@@ -17,10 +17,10 @@ def load_library(file_path)
   new_hash["get_emoticon"][english]
   new_hash["get_meaning"][japanese]
 
-# binding.pry  
+binding.pry  
 
 end
-binding.pry
+#binding.pry
 new_hash
 end
 
