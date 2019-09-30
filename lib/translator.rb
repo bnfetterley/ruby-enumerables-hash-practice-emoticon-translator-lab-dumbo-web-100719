@@ -12,9 +12,9 @@ def load_library(file_path)
   emoticons.each do |key, value|
     
    #english = value[0]
-  # japanese = value[1]
+  #japanese = value[1]
    #new_hash[get_emoticon] << english
-  # new_hash[get_meaning] << japanese
+  #new_hash[get_meaning] << japanese
 
 # binding.pry  
 
