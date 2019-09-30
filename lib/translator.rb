@@ -23,7 +23,6 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   translation = load_library(file_path)
   translation["get_emoticon"][emoticon]
-  binding.pry
   #     if emoticon == english
   #       puts [japanese]
   #     end
