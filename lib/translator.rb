@@ -17,7 +17,7 @@ def load_library(file_path)
   new_hash["get_emoticon"][english] = japanese 
   new_hash["get_meaning"][japanese] = key
 
-binding.pry  
+#binding.pry  
 
 end
 #binding.pry
