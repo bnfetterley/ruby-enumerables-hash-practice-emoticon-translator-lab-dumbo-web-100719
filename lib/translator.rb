@@ -21,7 +21,11 @@ new_hash
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  load_library(emoticon)
+  load_library.each do |emoticon|
+      if emoticon == english
+        puts [japanese]
+      end
+    end
   # code goes here
 end
 
