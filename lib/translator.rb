@@ -23,7 +23,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   translation = load_library(file_path)
   if !translation["get_emoticon"][emoticon]
-    return "sorry, not available"
+    return "Sorry, that emoticon was not found"
   else translation["get_emoticon"][emoticon]
 end
   #     if emoticon == english
