@@ -1,7 +1,8 @@
 # require modules here
-require 'pry'
+
 
 require "yaml"
+require 'pry'
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
@@ -9,15 +10,16 @@ def load_library(file_path)
    "get_meaning" => {}, "get_emoticon" => {}
   }
   emoticons.each do |key, value|
-    value.each do | english |
+   english = value[0]
    japanese = value[1]
-       
-   new_hash << english
+
+     binding.pry   
+  # new_hash << english
  
     #  new_hash[key][english] << japanese
      
     end   
-    binding.pry
+   
   end
 end
 end
