@@ -9,7 +9,7 @@ def load_library(file_path)
    "get_meaning" => {}, "get_emoticon" => {}
   }
   emoticons.each do |key, value|
-    value.each do | english, japanese(1) |
+    value.each do | english, japanese[1] |
    #   japanese.do 
      binding.pry 
   end
