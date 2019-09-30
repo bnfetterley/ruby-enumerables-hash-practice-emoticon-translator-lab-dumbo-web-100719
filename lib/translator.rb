@@ -15,7 +15,7 @@ def load_library(file_path)
   japanese = value[1]
   
   new_hash["get_emoticon"][english]
-  new_hash["get_meaning"][key]
+  new_hash["get_meaning"][japanese] = key
 
 binding.pry  
 
