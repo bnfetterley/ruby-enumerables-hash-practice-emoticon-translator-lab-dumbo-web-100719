@@ -8,6 +8,11 @@ def load_library(file_path)
   new_hash = {
    "get_meaning" => {}, "get_emoticon" => {}
   }
+  emoticons.each do |key, value|
+    binding.pry
+    value.each do | english, japanese |
+      japanese.do 
+  
 end
 
 
@@ -18,3 +23,6 @@ end
 def get_english_meaning
   # code goes here
 end
+
+value.each do |new_value, names|
+#       names.each do |name|
