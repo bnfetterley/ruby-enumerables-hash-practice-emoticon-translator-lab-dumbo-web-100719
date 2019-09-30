@@ -1,13 +1,18 @@
 # require modules here
 require 'pry'
 
-def load_library(file)
-  require "yaml"
-  emoticons = {}
-  emoticons = YAML.load('emoticons.yml')
-  emoticons
-  binding.pry
+require "yaml"
+
+def load_library(file_path)
+  emoticons = YAML.load_file(file_path)
+  new_hash = {
+   :get_meaning => :Japanese  , :get_emoticon => :English
+  }
 end
+
+# def load_library(file_path)
+#   emoticons = YAML.load_file(file_path)
+# end
 
 def get_japanese_emoticon
   # code goes here
