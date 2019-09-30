@@ -10,18 +10,14 @@ def load_library(file_path)
    "get_meaning" => {}, "get_emoticon" => {}
   }
   emoticons.each do |key, value|
+    
    #english = value[0]
   # japanese = value[1]
-   #emoticon[get_emoticon] << english
-  # emoticon[get_meaning] << japanese
+   #new_hash[get_emoticon] << english
+  # new_hash[get_meaning] << japanese
 
-      
-#new_hash[:english] = english
 # binding.pry  
-    #  new_hash[key][english] << japanese
-    
-   
-  
+
 end
 end
 
