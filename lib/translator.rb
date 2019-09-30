@@ -11,11 +11,13 @@ def load_library(file_path)
   emoticons.each do |key, value|
     value.each do | english |
    japanese = value[1]
-   
-   if !new_hash[key][english]
-      new_hash[key][english] << japanese
+       
+   new_hash << english
+ 
+    #  new_hash[key][english] << japanese
+     
     end   
-    binding.pry 
+    binding.pry
   end
 end
 end
