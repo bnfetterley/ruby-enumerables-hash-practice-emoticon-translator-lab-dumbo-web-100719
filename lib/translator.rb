@@ -22,7 +22,10 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   translation = load_library(file_path)
-  translation["get_emoticon"][emoticon]
+  if !translation["get_emoticon"][emoticon]
+    return "sorry, not available"
+  else translation["get_emoticon"][emoticon]
+end
   #     if emoticon == english
   #       puts [japanese]
   #     end
