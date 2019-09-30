@@ -9,7 +9,7 @@ def load_library(file_path)
   new_hash = {
    "get_meaning" => {}, "get_emoticon" => {}
   }
-  emoticons.each do |key, value|
+  #emoticons.each do |key, value|
     
    #english = value[0]
   #japanese = value[1]
@@ -18,7 +18,7 @@ def load_library(file_path)
 
 # binding.pry  
 
-end
+#end
 end
 
 def get_japanese_emoticon
