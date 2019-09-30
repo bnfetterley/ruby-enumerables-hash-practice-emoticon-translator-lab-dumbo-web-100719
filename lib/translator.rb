@@ -20,6 +20,7 @@ def load_library(file_path)
 # binding.pry  
 
 end
+new_hash
 end
 
 def get_japanese_emoticon
