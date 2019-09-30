@@ -6,13 +6,10 @@ require "yaml"
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
   new_hash = {
-   :get_meaning => :Japanese  , :get_emoticon => :English
+   "get_meaning" => {}, "get_emoticon" => {}
   }
 end
 
-# def load_library(file_path)
-#   emoticons = YAML.load_file(file_path)
-# end
 
 def get_japanese_emoticon
   # code goes here
