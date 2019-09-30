@@ -20,7 +20,7 @@ end
 new_hash
 end
 
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(load_library, emoticon)
   load_library.each do |emoticon|
       if emoticon == english
         puts [japanese]
